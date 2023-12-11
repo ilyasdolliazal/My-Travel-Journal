@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Imprima&family=Inter:wght@300;400;600;700&family=Open+Sans&family=Work+Sans:wght@300&display=swap');
+
+
+
+
+*{
+  font-family: 'Open Sans';
+  margin: 0%;
+}
+
+
+
+.Nav {
+  background-color: lightgoldenrodyellow;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  max-width: 100%;
+}
+
+
+
+.image {
+  width: 250px;
+  height: 200px;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+
+
+.icone--map {
+  width: 18px;
+  height: 18px;
+  margin-right: 5px;
+}
+
+
+.card--container {
+  display: flex;
+  align-content: center;
+  margin: 80px;
+  width: 80%;
+}
+
+.title {
+  margin-bottom: 20px;
+}
+
+.date {
+  margin-bottom: 10px;
+  font-weight: bold;
+
+}
+
+
+
+.location-container {
+display: inline-flex;
+}
+
+.maps {
+  margin-left: 30px;
+  color: grey;
+}
+
+
+
+.location--icone {
+  width: 17px;
+}
+
+
+@media screen and (max-width: 750px){
+
+.card--container {
+  flex-direction: column;
+}
+
+.image {
+  max-width: 350px;
+  margin-bottom: 20px;
+
+}
+}
+
